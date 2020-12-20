@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="impala" uuid="643731ab-5499-4f09-85a5-55df034b3852">
+      <driver-ref>java.sql.Driver</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>com.cloudera.impala.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:impala://hddlidlb.stc.com.bh:21050/;AuthMech=1;SSL=1;KrbHostFQDN=hddlidlb.stc.com.bh;KrbRealm=STC.COM.BH;KrbServiceName=impala;SSLTrustStore=C:\Users\kmahgoub\Desktop\SecurityKeys_ForCDH\truststore.jks;CAIssuedCertNamesMismatch=1</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+      <keep-alive enable="true" />
+      <auto-close enable="true" />
+    </data-source>
+  </component>
+</project>

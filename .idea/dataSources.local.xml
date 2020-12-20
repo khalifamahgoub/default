@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="impala" uuid="643731ab-5499-4f09-85a5-55df034b3852">
+      <database-info product="Impala" version="3.2.0-cdh6.3.3" jdbc-version="4.2" driver-name="ImpalaJDBC" driver-version="02.06.15.1017" dbms="IMPALA" exact-version="3.2" exact-driver-version="2.6">
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <secret-storage>master_key</secret-storage>
+      <user-name>kmahgoub</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="database" qname="Impala">
+            <node kind="schema">
+              <name qname="bdl_analytics" />
+              <name qname="bdl_dm" />
+              <name qname="bdl_raw" />
+              <name qname="bdl_rpt" />
+              <name qname="" />
+            </node>
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <ssl-config>
+        <ca-cert>D:\Marketing\Big Data\SecurityKeys_ForCDH\rootCA_stc.pem</ca-cert>
+        <client-cert>D:\Marketing\Big Data\SecurityKeys_ForCDH\truststore.jks</client-cert>
+        <enabled>true</enabled>
+        <mode>REQUIRE</mode>
+      </ssl-config>
+    </data-source>
+  </component>
+</project>
